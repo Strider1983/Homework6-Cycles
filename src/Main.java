@@ -31,5 +31,10 @@ public class Main {
         for(int x = 7; x <= 98; x = x + 7) {
             System.out.println(x);
         }
+        System.out.println("__________________");
+        System.out.println("Задача №7");
+        for (int y = 1; y <= 512; y = y * 2) {
+            System.out.println(y);
+        }
     }
 }
