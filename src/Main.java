@@ -36,5 +36,13 @@ public class Main {
         for (int y = 1; y <= 512; y = y * 2) {
             System.out.println(y);
         }
+        System.out.println("__________________");
+        System.out.println("Задача №8");
+        int save = 29000;
+        int accum = 0;
+        for (int z = 1; z <= 12; z = z + 1) {
+            accum = accum + save;
+            System.out.println("Месяц " + z + " сумма накоплений равна " + accum + " рублей.");
+        }
     }
 }
