@@ -53,5 +53,13 @@ public class Main {
             accumulation = accumulation + saving;
             System.out.println("Месяц " + z + " сумма накоплений равна " + accumulation + " рублей.");
         }
+        System.out.println("__________________");
+        System.out.println("Задача №10");
+        int o = 1;
+        int l = 2;
+        for (int c = 1; c <=10; c = c + 1) {
+            o = l * c;
+            System.out.println(l + "x" + c + "=" + o);
+        }
     }
 }
