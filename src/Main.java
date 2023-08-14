@@ -28,7 +28,7 @@ public class Main {
         }
         System.out.println("__________________");
         System.out.println("Задача №6");
-        for(int x = 7; x <= 98; x = x + 7) {
+        for (int x = 7; x <= 98; x = x + 7) {
             System.out.println(x);
         }
         System.out.println("__________________");
@@ -43,6 +43,15 @@ public class Main {
         for (int z = 1; z <= 12; z = z + 1) {
             accum = accum + save;
             System.out.println("Месяц " + z + " сумма накоплений равна " + accum + " рублей.");
+        }
+        System.out.println("__________________");
+        System.out.println("Задача №9");
+        int saving = 29000;
+        int accumulation = 0;
+        for (int z = 1; z <= 12; z = z + 1) {
+            accumulation = accumulation + accumulation / 100;
+            accumulation = accumulation + saving;
+            System.out.println("Месяц " + z + " сумма накоплений равна " + accumulation + " рублей.");
         }
     }
 }
