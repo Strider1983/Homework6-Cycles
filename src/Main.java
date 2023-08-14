@@ -16,5 +16,10 @@ public class Main {
         for (int a = 0; a < 17; a = a + 2) {
             System.out.println(a);
         }
+        System.out.println("__________________");
+        System.out.println("Задача №4");
+        for (int q = 10; q >= -10; q = q - 1) {
+            System.out.println(q);
+        }
     }
 }
